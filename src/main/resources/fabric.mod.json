@@ -1,30 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "betterfood",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
+  "name": "betterfood",
+  "description": "A mod with a bunch of random foods and stuff that me and some friends came up with. WIP.",
+  "authors": ["NullPointDev", "ffh571", "PrismaTheGreat"],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://nullpointdev.github.io/betterfood",
+    "sources": "https://github.com/nullpointdev/betterfood"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/betterfood/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
+    "main": ["com.nullpointdev.betterfood.BetterFood"]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
+  "mixins": [],
 
   "depends": {
     "fabricloader": ">=0.7.4",

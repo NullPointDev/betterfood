@@ -1,9 +1,11 @@
-# Fabric Example Mod
+# BetterFood
 
-## Setup
+A simple fabric mod for Minecraft that adds a bunch of different foods and stuff.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## How to install
+
+Download the latest [release](http://github.com/nullpointdev/betterfood/releases/latest)
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This project is licensed under MIT, so if you would like to make something from my spaghetti, go ahead.
